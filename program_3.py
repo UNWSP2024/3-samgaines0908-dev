@@ -11,15 +11,16 @@
 
 def weight_conversion(weight):
     # Calculate the shipping charge.
-    shippingCost = 0.0
+    
     ######################
     if weight <= 2:
-        price_per_pound = 1.50
-    elif weight <= 6: price_per_pound = 3.00
-    elif weight <= 10: price_per_pound = 4.00
-    else: price_per_pound = 4.75
-    shippingCost = price_per_pound
-    return shippingCost
+        return 1.50
+    elif weight <= 6:
+        return 3.00
+    elif weight <= 10:
+        return 4.00
+    else:
+        return 4.75
     ######################
     
 #### This piece of the code has been done for you,
