@@ -15,8 +15,6 @@ def categorize_age(age):
     ######################
 
 
-    return ageCategory
-
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
