@@ -5,7 +5,7 @@
 # If the person is at least 13 years old, but less than 20 years old, it should display "teenager".
 # If the person is at least 20 year old, it should display "adult".
 
-def categorize_age(age):
+def categorize_age(age): 
     
     ######################
     if age <=1: return "infant"
