@@ -5,7 +5,7 @@
 # Write a program the inputs the type of hot dog wanted and optional toppings.  
 # The program then displays the hot dog cost, tax and total cost. 
 
-hot_dog_price= 3.50
+hot_dog_price= 3.50 
 chili_dog_price= 4.50
 cheese_price= 0.50
 peppers_price= 0.75
