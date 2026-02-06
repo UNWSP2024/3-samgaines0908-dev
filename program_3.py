@@ -1,23 +1,23 @@
-# Programming Excersize 3-13
-
-# The Fast Freight Shipping Company charges the following rates:
-
-# Weight    	                            Price Per Pound
-# 2 pounds or less   	                    $1.50
-# Over 2 pounds but not more than 6 pounds  $3.00
-# Over 6 pounds but not more than 10 pounds	$4.00
-# Over 10 pounds	                        $4.75
-# Write a program which calculates the shipping charge and displays the total.
+#Author: Sam Gaines
+#Date: 2/6/2026
+#Title: Shipping Charges 
 
 def weight_conversion(weight):
     # Calculate the shipping charge.
-    shippingCost = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################
     
-    return shippingCost
+    ######################
+    if weight <= 2:
+        total = weight * 1.50
+    elif weight <= 6:
+        total = weight * 3.00
+    elif weight <= 10:
+        total = weight * 4.00
+    else:
+        total = weight * 4.75
 
+    return total
+   ######################
+    
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual shipping 
 #### charge logic in the weight_conversion function
