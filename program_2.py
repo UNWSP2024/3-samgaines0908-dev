@@ -6,12 +6,12 @@
 # If the person is at least 20 year old, it should display "adult".
 
 def categorize_age(age):
-    ageCategory = "TBD"
+    
     ######################
-    if age <=1: return "Infant"
-    elif 1< age <13: return "Child"
-    elif 13<= age < 20: return "Teenager"
-    else: return "Adult"
+    if age <=1: return "infant"
+    elif 1< age <13: return "child"
+    elif 13<= age < 20: return "teenager"
+    else: return "adult"
     ######################
 
 
