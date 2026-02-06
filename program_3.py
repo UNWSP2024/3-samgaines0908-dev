@@ -1,13 +1,6 @@
-# Programming Excersize 3-13
-
-# The Fast Freight Shipping Company charges the following rates:
-
-# Weight    	                            Price Per Pound
-# 2 pounds or less   	                    $1.50
-# Over 2 pounds but not more than 6 pounds  $3.00
-# Over 6 pounds but not more than 10 pounds	$4.00
-# Over 10 pounds	                        $4.75
-# Write a program which calculates the shipping charge and displays the total.
+#Author: Sam Gaines
+#Date: 2/6/2026
+#Title: Shipping Charges 
 
 def weight_conversion(weight):
     # Calculate the shipping charge.
